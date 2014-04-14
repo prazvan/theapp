@@ -5,7 +5,7 @@ theapp :)
 
 The Technologies used are:
   * PHP (v5.4.4) - Doctrine, Composer
-  * HTML% - None
+  * HTML5 - None
   * CSS3 - Twitter Bootstrap
   * JS - jQuery, Twitter Bootstrap, JSON
 
