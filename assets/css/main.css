@@ -1,0 +1,127 @@
+/**
+ * Lato Font-facex
+ */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(../fonts/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(../fonts/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(../fonts/CggrdU0t5c42NcNxN-VM33YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(../fonts/2HG_tEPiQ4Z6795cGfdivLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(../fonts/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+
+body {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 50px;
+}
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* for mobile */
+.sidebar
+{
+    padding: 20px;
+    overflow-x:  hidden;
+    overflow-y:  auto;
+}
+
+/* desktop */
+@media (min-width: 768px)
+{
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+    height: 100%;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-sidebar > .active > a {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.nav-sidebar > .active > a:hover {
+    background-color: #428bca;
+}
+
+.nav-title
+{
+    color: #2a6496;
+    font-weight: 400;
+    padding: 0;
+}
+
+/*
+ * Main content
+ */
+
+.main
+{
+    padding: 20px;
+}
+@media (min-width: 768px)
+{
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+

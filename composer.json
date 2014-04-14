@@ -1,0 +1,15 @@
+{
+    "name": "rposobescu/theapp",
+    "description": "The App",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Razvan Posobescu",
+            "email": "razvanposobescu@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "2.5.*@dev"
+    }
+}
