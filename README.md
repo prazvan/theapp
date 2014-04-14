@@ -13,7 +13,7 @@ I Haved ussed jQuery and Twitter Bootstrap. jQuery for its powerfull Abtraction 
 
 **Installation**
 
- 1). Change credentials in ```config/database.php``` to connect to the database
- 2). Import the sql dump ```db/sql_dump.zip```. In the db folder you can also find the MySQL Workbench Model.
- 3). Install and run ```composer update```
- 4). Your good to go :)
+ 1. Change credentials in ```config/database.php``` to connect to the database
+ 2. Import the sql dump ```db/sql_dump.zip```. In the db folder you can also find the MySQL Workbench Model.
+ 3. Install and run ```composer update```
+ 4. Your good to go :)
